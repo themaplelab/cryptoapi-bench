@@ -1,0 +1,8 @@
+VM ASSISTED
+
+contains some adjustments but also a value change in static final field, which makes it vm assisted
+
+
+two imprecise vlaue errors
+
+one of them may be fixed by the new field

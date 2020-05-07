@@ -1,0 +1,16 @@
+ADJUSTED
+
+ in Method: void method1(java.lang.String)
+        ConstraintError violating CrySL rule for javax.crypto.Cipher (on Object #1a06fdae3c5e34581f287856170543a8f13ba\
+fb8fb4cc6880004bd801479294c)
+	    First parameter (with value "RC2") should be any of {AES, PBEWithHmacSHA224AndAES_128, PBEWithHmacSHA256An\
+dAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA512AndAES_128, PBEWithHmacSHA224AndAES_256, PBEWithHmacSHA256AndA\
+ES_256, PBEWithHmacSHA384AndAES_256, PBEWithHmacSHA512AndAES_256, RSA}
+            at statement: r3 = staticinvoke <javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>(r\
+0)
+
+        ConstraintError violating CrySL rule for javax.crypto.KeyGenerator (on Object #e151465ac7a8adf2d9c3f2afac7bd66\
+2c4518bfacb4f2a685f35f0f5952b4c8)
+            First parameter (with value "RC2") should be any of {AES, HmacSHA224, HmacSHA256, HmacSHA384, HmacSHA512}
+            at statement: r1 = staticinvoke <javax.crypto.KeyGenerator: javax.crypto.KeyGenerator getInstance(java.lan\
+g.String)>(r0)

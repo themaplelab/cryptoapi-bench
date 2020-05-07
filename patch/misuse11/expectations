@@ -1,0 +1,17 @@
+NATURAL
+
+
+ in Method: void go()
+        ConstraintError violating CrySL rule for javax.crypto.KeyGenerator (on Object #73a923f7d9f1504b3a6ca5a42f6fd7b0\
+662ac47eeb7ff5823b71f0979a9873c4)
+            First parameter (with value "RC2") should be any of {AES, HmacSHA224, HmacSHA256, HmacSHA384, HmacSHA512}
+	    at statement: r1 = staticinvoke <javax.crypto.KeyGenerator: javax.crypto.KeyGenerator getInstance(java.lang\
+.String)>(varReplacer50)
+
+        ConstraintError violating CrySL rule for javax.crypto.Cipher (on Object #104d873dd65a6fdd086ea521b43fe6affae565\
+7025795454b33c7b030be8b910)
+            First parameter (with value "RC2") should be any of {AES, PBEWithHmacSHA224AndAES_128, PBEWithHmacSHA256And\
+AES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA512AndAES_128, PBEWithHmacSHA224AndAES_256, PBEWithHmacSHA256AndAES\
+_256, PBEWithHmacSHA384AndAES_256, PBEWithHmacSHA512AndAES_256, RSA}
+            at statement: r3 = staticinvoke <javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>(va\
+rReplacer51)

@@ -1,0 +1,7 @@
+NATURAL
+
+        ConstraintError violating CrySL rule for java.security.KeyPairGenerator (on Object #e12dc0fcbd2fa1bf29250f9d32\
+094eb2f71488a6b4b460b4546ff8a41eb255c9)
+            First parameter (with value 1024) should be any of {2048, 4096}
+            at statement: virtualinvoke r0.<java.security.KeyPairGenerator: void initialize(int)>(i0)
+

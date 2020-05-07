@@ -1,0 +1,11 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.ecbcrypto.EcbInSymmCryptoBBCase1
+
+     in Method: void go()
+        ConstraintError violating CrySL rule for javax.crypto.Cipher (on Object #38973b3056d47597d19861032d1293e1b832c\
+191dd905b29bbed193026127188)
+	    First parameter (with value "AES/ECB/PKCS5Padding") should be any of AES/{CBC, GCM, PCBC, CTR, CTS, CFB, O\
+FB}
+            at statement: r3 = staticinvoke <javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>(v\
+arReplacer91)

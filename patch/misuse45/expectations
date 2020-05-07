@@ -1,0 +1,19 @@
+ADJUSTED
+
+method param type change
+
+in Method: void main(java.lang.String[])
+        IncompleteOperationError violating CrySL rule for javax.crypto.spec.PBEKeySpec (on Object #8a6790b3d5baccdcd925\
+f0727cc62d3112e21072984cb70cc598c64a704624c3)
+            Operation on object of type javax.crypto.spec.PBEKeySpec object not completed. Expected call to clearPasswo\
+rd
+	    at statement: virtualinvoke r1.<org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABICase1: \
+void go(java.lang.String)>(r2)
+
+
+     in Method: void go(java.lang.String)
+        NeverTypeOfError violating CrySL rule for javax.crypto.spec.PBEKeySpec (on Object #8a6790b3d5baccdcd925f0727cc6\
+2d3112e21072984cb70cc598c64a704624c3)
+            First parameter should never be of type java.lang.String.
+            at statement: specialinvoke $r5.<javax.crypto.spec.PBEKeySpec: void <init>(char[],byte[],int,int)>($r6, r2,\
+ s0, b1)

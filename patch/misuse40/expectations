@@ -1,0 +1,11 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordBBCase2
+
+     in Method: void main(java.lang.String[])
+        IncompleteOperationError violating CrySL rule for javax.crypto.spec.PBEKeySpec (on Object #4de65d487850098a69f0\
+8f9baf36bb39d2e31bb1cf114d7c5f39f552f6bb8de1)
+            Operation on object of type javax.crypto.spec.PBEKeySpec object not completed. Expected call to clearPasswo\
+rd
+            at statement: virtualinvoke r1.<org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordBBCase2: v\
+oid key()>()

@@ -1,0 +1,19 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABICase3
+
+     in Method: void method2(java.lang.String)
+        NeverTypeOfError violating CrySL rule for javax.crypto.spec.PBEKeySpec (on Object #b3f4222a7301e5898d4e12950bb\
+c1fb2e8107ced1a2e1d5e480e87921fdbb960)
+	    First parameter should never be of type java.lang.String.
+            at statement: specialinvoke $r5.<javax.crypto.spec.PBEKeySpec: void <init>(char[],byte[],int,int)>($r6, r2\
+, s0, b1)
+
+
+     in Method: void main(java.lang.String[])
+        IncompleteOperationError violating CrySL rule for javax.crypto.spec.PBEKeySpec (on Object #b3f4222a7301e5898d4\
+e12950bbc1fb2e8107ced1a2e1d5e480e87921fdbb960)
+            Operation on object of type javax.crypto.spec.PBEKeySpec object not completed. Expected call to clearPassw\
+ord
+            at statement: virtualinvoke r1.<org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABICase3:\
+ void method1(java.lang.String)>(r2)

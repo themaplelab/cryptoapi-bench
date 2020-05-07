@@ -1,0 +1,11 @@
+NATURAL
+
+
+Findings in Java Class: org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase3
+
+     in Method: void method1(int,java.security.SecureRandom,javax.crypto.spec.PBEParameterSpec)
+        ConstraintError violating CrySL rule for javax.crypto.spec.PBEParameterSpec (on Object #47a05889a4990a69142258\
+b598334e49d1fe2e602f19ea60d1174f4be2f92ee)
+	    Second parameter (with value 20)Variable iterationCountmust be  at least 10000
+            at statement: specialinvoke $r2.<javax.crypto.spec.PBEParameterSpec: void <init>(byte[],int)>(r1, i0)
+

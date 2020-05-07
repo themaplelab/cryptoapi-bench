@@ -1,0 +1,22 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABHCase2
+
+     in Method: void go()
+        IncompleteOperationError violating CrySL rule for javax.crypto.Cipher (on Object #5777a16c6417ce8a8a746f242beb3\
+8e14e14f12be9e5dd67bdf226370cc60091)
+            Operation on object of type javax.crypto.Cipher object not completed. Expected call to javax.crypto.Cipher:\
+ void init(int,java.security.cert.Certificate,java.security.SecureRandom), javax.crypto.Cipher: void init(int,java.secu\
+rity.Key), javax.crypto.Cipher: void init(int,java.security.Key,java.security.AlgorithmParameters), javax.crypto.Cipher\
+: void init(int,java.security.Key,java.security.SecureRandom), javax.crypto.Cipher: void init(int,java.security.Key,jav\
+a.security.spec.AlgorithmParameterSpec), update, javax.crypto.Cipher: void init(int,java.security.Key,java.security.spe\
+c.AlgorithmParameterSpec,java.security.SecureRandom), javax.crypto.Cipher: void init(int,java.security.cert.Certificate\
+), javax.crypto.Cipher: void init(int,java.security.Key,java.security.AlgorithmParameters,java.security.SecureRandom), \
+wrap, doFinal
+            at statement: virtualinvoke r3.<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.Alg\
+orithmParameterSpec)>(varReplacer247, r2, r8)
+
+        RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec
+            First parameter was not properly generated as randomized
+            at statement: specialinvoke $r15.<javax.crypto.spec.IvParameterSpec: void <init>(byte[])>(r7)
+

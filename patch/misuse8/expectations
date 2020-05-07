@@ -1,0 +1,10 @@
+ADJUSTED
+
+has an output
+also does not have a corrected class ,NO PATCH, make our own.
+
+Findings in Java Class: org.cryptoapi.bench.insecureasymmetriccrypto.InsecureAsymmetricCipherABMC1
+ConstraintError violating CrySL rule for java.security.KeyPairGenerator (on Object #e03d856acf3c06a31977fa0ad51\
+050455051da86893943cd85f6d06a2389ee37)
+            First parameter (with value 1024) should be any of {2048, 4096}
+            at statement: virtualinvoke r1.<java.security.KeyPairGenerator: void initialize(int)>(i0)

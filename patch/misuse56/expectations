@@ -1,0 +1,13 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.staticsalts.StaticSaltsABICase1
+
+     in Method: void key2(byte[],int)
+        ConstraintError violating CrySL rule for javax.crypto.spec.PBEParameterSpec (on Object #9b5fedb206dbed78369568\
+7351f7ac0e266051fcfdb22d6d47d33b1c6bbaa1c)
+	    Second parameter (with value 1020)Variable iterationCountmust be  at least 10000
+            at statement: specialinvoke $r2.<javax.crypto.spec.PBEParameterSpec: void <init>(byte[],int)>(r1, i0)
+
+        RequiredPredicateError violating CrySL rule for javax.crypto.spec.PBEParameterSpec
+            First parameter was not properly generated as randomized
+            at statement: specialinvoke $r2.<javax.crypto.spec.PBEParameterSpec: void <init>(byte[],int)>(r1, i0)

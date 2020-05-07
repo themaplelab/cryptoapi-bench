@@ -1,0 +1,9 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.predictablecryptographickey.PredictableCryptographicKeyABMC1
+
+     in Method: void go(java.lang.String)
+        RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec
+            First parameter was not properly generated as prepared Key Material
+	    at statement: specialinvoke $r3.<javax.crypto.spec.SecretKeySpec: void <init>(byte[],java.lang.String)>(r5\
+, varReplacer160)

@@ -1,0 +1,10 @@
+fix in static final field , expect to not observe effect
+
+Findings in Java Class: org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2
+
+     in Method: void key2()
+        ConstraintError violating CrySL rule for javax.crypto.spec.PBEParameterSpec (on Object #788f9173d1d53a948da75ab\
+a0a9c08a9ea055e659aa6ae191d57a9c1f13cd47a)
+            Second parameter (with value 0)Variable iterationCountmust be  at least 10000
+	    at statement: specialinvoke $r4.<javax.crypto.spec.PBEParameterSpec: void <init>(byte[],int)>(r2, $i0)
+

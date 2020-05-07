@@ -1,0 +1,19 @@
+ADJUSTED
+
+check if private method is a fix
+
+ in Method: void go(java.lang.String)
+        ConstraintError violating CrySL rule for javax.crypto.Cipher (on Object #eac6c5bdafc6c83cb635909a35f13f05751e9a\
+28c0f0dae1124ee329d4bad553)
+            First parameter (with value "Blowfish") should be any of {AES, PBEWithHmacSHA224AndAES_128, PBEWithHmacSHA2\
+56AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA512AndAES_128, PBEWithHmacSHA224AndAES_256, PBEWithHmacSHA256A\
+ndAES_256, PBEWithHmacSHA384AndAES_256, PBEWithHmacSHA512AndAES_256, RSA}
+            at statement: r4 = staticinvoke <javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>(r1\
+)
+
+        ConstraintError violating CrySL rule for javax.crypto.KeyGenerator (on Object #65a1e22783e76d26782a961ef944ea60\
+603670e8f2fab0fabeeb7364ee5e59ef)
+            First parameter (with value "Blowfish") should be any of {AES, HmacSHA224, HmacSHA256, HmacSHA384, HmacSHA5\
+12}
+            at statement: r2 = staticinvoke <javax.crypto.KeyGenerator: javax.crypto.KeyGenerator getInstance(java.lang\
+.String)>(r1)

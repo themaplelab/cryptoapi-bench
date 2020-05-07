@@ -1,0 +1,10 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.predictablekeystorepassword.PredictableKeyStorePasswordABICase1
+
+     in Method: void go(java.lang.String)
+        NeverTypeOfError violating CrySL rule for java.security.KeyStore (on Object #765554a8af8fb873ba5705fc66618bcd7\
+81a98f1f8b3b64d97ab0d54dc93c014)
+	    Second parameter should never be of type java.lang.String.
+            at statement: virtualinvoke r3.<java.security.KeyStore: void load(java.io.InputStream,char[])>($r6, $r7)
+

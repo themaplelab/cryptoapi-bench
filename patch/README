@@ -1,0 +1,9 @@
+##########################
+# SUMMARY
+#
+#
+##########################
+
+ * number of misuses that show up in cogni reports
+find . -name *.java | wc -l
+96

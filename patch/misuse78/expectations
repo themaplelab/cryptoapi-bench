@@ -1,0 +1,10 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.predictablepbepassword.CryptoPredictablePBE
+
+     in Method: void method1(java.lang.String)
+	NeverTypeOfError violating CrySL rule for javax.crypto.spec.PBEKeySpec (on Object #749f1e6e3954eaa6dea817670a9\
+69d170e4c0cec69fcc0129871d32cdcf6e2d8)
+            First parameter should never be of type java.lang.String.
+            at statement: specialinvoke $r4.<javax.crypto.spec.PBEKeySpec: void <init>(char[],byte[],int,int)>($r5, r1\
+, s0, b1)

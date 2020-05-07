@@ -1,0 +1,8 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorBBCase1
+
+     in Method: void go()
+        RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec
+            First parameter was not properly generated as randomized
+            at statement: specialinvoke $r7.<javax.crypto.spec.IvParameterSpec: void <init>(byte[])>(r4)

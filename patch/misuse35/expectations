@@ -1,0 +1,9 @@
+VM ASSISTED
+
+static final field
+
+ConstraintError violating CrySL rule for java.security.KeyPairGenerator (on Object #3b556aa7356fafe3904cf3e35d4\
+690fdef8eab459b1fe06b015a6d1d53547c93)
+            First parameter (with value 1024) should be any of {2048, 4096}
+	    at statement: virtualinvoke r2.<java.security.KeyPairGenerator: void initialize(int)>($i0)
+

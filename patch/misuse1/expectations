@@ -1,0 +1,17 @@
+NATURAL
+
+had to fix iteration count, in fix was only meant to be over 1000, cogni requires over 10000
+
+Findings in Java Class: org.cryptoapi.bench.staticsalts.StaticSaltsABHCase1
+
+     in Method: void key2()
+        RequiredPredicateError violating CrySL rule for javax.crypto.spec.PBEParameterSpec
+            First parameter was not properly generated as randomized
+            at statement: specialinvoke $r11.<javax.crypto.spec.PBEParameterSpec: void <init>(byte[],int)>(r2, varRepla\
+cer283)
+
+        ConstraintError violating CrySL rule for javax.crypto.spec.PBEParameterSpec (on Object #406ee1362cd1d2a42cdf2a5\
+4aaf3c38f85328ca9aaa47ca4329a52925f6968de)
+            Second parameter (with value 1020)Variable iterationCountmust be  at least 10000
+            at statement: specialinvoke $r11.<javax.crypto.spec.PBEParameterSpec: void <init>(byte[],int)>(r2, varRepla\
+cer283)

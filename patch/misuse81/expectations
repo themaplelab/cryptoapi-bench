@@ -1,0 +1,10 @@
+NATURAL
+
+Findings in Java Class: org.cryptoapi.bench.brokenhash.BrokenHashABICase2
+
+     in Method: void go(java.lang.String,java.lang.String)
+        ConstraintError violating CrySL rule for java.security.MessageDigest (on Object #9a201b557bcfdf2be22ff2ef73eb4\
+224b305a858ea44a7b611e4da1b698c253b)
+	    First parameter (with value "MD5") should be any of {SHA-256, SHA-384, SHA-512}
+            at statement: r2 = staticinvoke <java.security.MessageDigest: java.security.MessageDigest getInstance(java\
+.lang.String)>(r1)

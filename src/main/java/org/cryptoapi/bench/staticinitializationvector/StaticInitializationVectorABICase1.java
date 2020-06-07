@@ -19,7 +19,7 @@ public class StaticInitializationVectorABICase1 {
 
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException {
         StaticInitializationVectorABICase1 siv = new StaticInitializationVectorABICase1();
-        byte [] bytes = "abcde".getBytes();
+        byte [] bytes = "abcdabcdabcdabcd".getBytes();
         siv.go(bytes);
     }
 }

@@ -9,9 +9,9 @@ import java.security.NoSuchAlgorithmException;
 
 public class BrokenCryptoBBCase5 {
     public void go() throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
-        KeyGenerator keyGen = KeyGenerator.getInstance("IDEA");
+        KeyGenerator keyGen = KeyGenerator.getInstance("DES");
         SecretKey key = keyGen.generateKey();
-        Cipher cipher = Cipher.getInstance("IDEA");
+        Cipher cipher = Cipher.getInstance("DES");
         cipher.init(Cipher.ENCRYPT_MODE, key);
     }
 

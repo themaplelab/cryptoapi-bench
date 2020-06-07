@@ -24,7 +24,7 @@ public class InsecureAsymmetricCipherBBCase1 {
         dec.init(Cipher.DECRYPT_MODE, kp.getPrivate());
 
         String message = (String) encryptedMessage.getObject(dec);
-        System.out.println(message);
+		//        System.out.println(message);
     }
 
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, IOException, IllegalBlockSizeException, BadPaddingException, ClassNotFoundException {

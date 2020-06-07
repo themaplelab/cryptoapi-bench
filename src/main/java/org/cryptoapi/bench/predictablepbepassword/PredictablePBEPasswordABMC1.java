@@ -15,4 +15,8 @@ public class PredictablePBEPasswordABMC1 {
         int keyLength = 16;
         pbeKeySpec = new PBEKeySpec(password.toCharArray(),salt,iterationCount,keyLength);
     }
+	public static void main (String [] args) {
+        PredictablePBEPasswordABMC1 p = new PredictablePBEPasswordABMC1();
+        p.key("Test");
+    }
 }

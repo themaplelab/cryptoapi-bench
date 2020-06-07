@@ -18,4 +18,9 @@ public class StaticInitializationVectorABMC1 {
 
         cipher.init(Cipher.ENCRYPT_MODE,key,ivSpec);
     }
+	public static void main (String [] args) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidAlgorithmParameterException, InvalidKeyException{
+        StaticInitializationVectorABMC1 s = new StaticInitializationVectorABMC1();
+        s.go("abcdabcdabcdabcd".getBytes());
+
+    }
 }

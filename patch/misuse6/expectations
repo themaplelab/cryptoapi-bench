@@ -3,3 +3,5 @@ VM ASSISTED maybe
 probably same
 
 static final field value change
+
+we get lucky, value changes but only because of constant propagation

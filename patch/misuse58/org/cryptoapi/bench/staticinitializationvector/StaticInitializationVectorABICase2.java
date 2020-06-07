@@ -34,6 +34,11 @@ public class StaticInitializationVectorABICase2 {
         initialization = INITIALIZATION;
     }
 
+	public StaticInitializationVectorABICase2(){
+        go2();
+        go3();
+    }
+
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException {
 		System.out.println("REDEFINITION PASSED");
         StaticInitializationVectorABICase2 siv = new StaticInitializationVectorABICase2();

@@ -8,7 +8,7 @@ import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 
 public class InsecureAsymmetricCipherABMC1 {
-    private void go(int keySize) throws IOException, IllegalBlockSizeException, BadPaddingException, ClassNotFoundException, InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException {
+    public void go(int keySize) throws IOException, IllegalBlockSizeException, BadPaddingException, ClassNotFoundException, InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException {
 
         KeyPairGenerator kgp = KeyPairGenerator.getInstance("RSA");
         kgp.initialize(keySize);
@@ -29,13 +29,9 @@ public class InsecureAsymmetricCipherABMC1 {
         System.out.println(message);
     }
 
-	public void go()throws IOException, IllegalBlockSizeException, BadPaddingException, ClassNotFoundException, InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException {
-		go(2048);
-	}
-
 	public static void main(String args[]) throws IOException, IllegalBlockSizeException, BadPaddingException, ClassNotFoundException, InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException {
 		System.out.println("REDEFINITION PASSED");
 		InsecureAsymmetricCipherABMC1 i = new InsecureAsymmetricCipherABMC1();
-		i.go();
+		i.go(2048);
 	}
 }

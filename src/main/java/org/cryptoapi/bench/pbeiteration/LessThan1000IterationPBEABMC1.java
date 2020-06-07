@@ -12,4 +12,11 @@ public class LessThan1000IterationPBEABMC1 {
 
         pbeParamSpec = new PBEParameterSpec(salt, count);
     }
+	public void go() {
+        go(1);
+    }
+    public static void main (String [] args) {
+        LessThan1000IterationPBEABMC1 p = new LessThan1000IterationPBEABMC1();
+        p.go();
+    }
 }

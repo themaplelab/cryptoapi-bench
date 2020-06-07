@@ -9,4 +9,13 @@ public class BrokenHashABMC2 {
         md.update(str.getBytes());
         System.out.println(md.digest());
     }
+
+	public void go(String str) throws NoSuchAlgorithmException {
+        go(str, "MD5");
+    }
+
+	public static void main (String [] args)  throws NoSuchAlgorithmException {
+        BrokenHashABMC2 c = new BrokenHashABMC2();
+        c.go("Test");
+    }
 }

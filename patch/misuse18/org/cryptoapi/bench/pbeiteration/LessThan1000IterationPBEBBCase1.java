@@ -4,7 +4,7 @@ import javax.crypto.spec.PBEParameterSpec;
 import java.security.SecureRandom;
 
 public class LessThan1000IterationPBEBBCase1 {
-    public static void main(){
+    public static void main(String[] args){
 		System.out.println("REDEFINITION PASSED");
         LessThan1000IterationPBEBBCase1 lt = new LessThan1000IterationPBEBBCase1();
         lt.key2();

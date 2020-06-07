@@ -16,4 +16,8 @@ public class PredictableKeyStorePasswordABMC1 {
         cacerts = new URL("https://www.google.com");
         ks.load(cacerts.openStream(), key.toCharArray());
     }
+	public static void main (String [] args)throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException  {
+        PredictableKeyStorePasswordABMC1 p = new PredictableKeyStorePasswordABMC1();
+        p.go("test");
+    }
 }

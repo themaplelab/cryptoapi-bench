@@ -9,7 +9,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class EcbInSymmCryptoABMC1 {
 
-    private void go(String crypto) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
+    public void go(String crypto) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
         KeyGenerator keyGen = KeyGenerator.getInstance("AES");
         SecretKey key = keyGen.generateKey();
         Cipher cipher = Cipher.getInstance(crypto);

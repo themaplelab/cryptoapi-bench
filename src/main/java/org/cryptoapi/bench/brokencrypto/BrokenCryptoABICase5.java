@@ -20,6 +20,7 @@ public class BrokenCryptoABICase5 {
         KeyGenerator keyGen = KeyGenerator.getInstance(String.valueOf(crypto_algo));
         SecretKey key = keyGen.generateKey();
         Cipher cipher = Cipher.getInstance(String.valueOf(crypto));
+		System.out.println("Using this algorithm for the cipher: "+ cipher.getAlgorithm());
         cipher.init(Cipher.ENCRYPT_MODE, key);
     }
     private static void go2(){

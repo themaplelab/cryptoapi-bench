@@ -28,6 +28,11 @@ public class StaticInitializationVectorABICase2 {
         initialization = INITIALIZATION;
     }
 
+	public StaticInitializationVectorABICase2(){
+		go2();
+        go3();
+	}
+	
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException {
         StaticInitializationVectorABICase2 siv = new StaticInitializationVectorABICase2();
         go2();

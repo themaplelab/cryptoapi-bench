@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 public class BrokenHashABICase11 {
     public static void main (String [] args) throws NoSuchAlgorithmException {
         String str = "abcdef";
-        String crypto = "MD4";
+        String crypto = "MD5";
         method2(str,crypto);
     }
     public static void method2 (String s, String cryptoHash) throws NoSuchAlgorithmException {

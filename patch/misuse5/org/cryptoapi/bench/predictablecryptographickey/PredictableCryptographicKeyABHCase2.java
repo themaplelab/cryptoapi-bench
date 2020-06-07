@@ -14,12 +14,17 @@ import javax.crypto.spec.PBEKeySpec;
 public class PredictableCryptographicKeyABHCase2 {
     public static void main(String [] args) throws UnsupportedEncodingException, GeneralSecurityException {
 		System.out.println("REDEFINITION PASSED");
-		 SecureRandom random = new SecureRandom();
-        String defaultKey = String.valueOf(random.ints());
+		char[] password = new char[] {'p', 'a', 's', 's', 'w', 'o', 'r', 'd'};
+        byte [] salt = new byte[32];
+        SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
+        secureRandom.nextBytes(salt);
 
-        byte[] keyBytes = defaultKey.getBytes();
-        keyBytes = Arrays.copyOf(keyBytes,16);
-        SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
+        SecretKeyFactory skf = SecretKeyFactory.getInstance("PBEWithHmacSHA512AndAES_128");
+        PBEKeySpec pbeks = new PBEKeySpec(password, salt, 10299, 128);
+        SecretKey secretKey =  skf.generateSecret(pbeks);
+        byte keyMaterial[] = secretKey.getEncoded();
+        SecretKeySpec object = new SecretKeySpec(keyMaterial, "HmacSHA256");
 
+		pbeks.clearPassword();
     }
 }

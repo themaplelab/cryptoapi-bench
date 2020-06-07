@@ -17,7 +17,7 @@ public class BrokenCryptoABICase9 {
 
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
         BrokenCryptoABICase9 bc = new BrokenCryptoABICase9();
-        String crypto = "IDEA";
+        String crypto = "DES";
         bc.go(crypto);
     }
 }

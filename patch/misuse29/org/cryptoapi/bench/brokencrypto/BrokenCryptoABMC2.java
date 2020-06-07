@@ -8,15 +8,15 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 public class BrokenCryptoABMC2 {
-    private void go(String crypto, String ky) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
-        KeyGenerator keyGen = KeyGenerator.getInstance(ky);
+    public void go(String crypto) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
+        KeyGenerator keyGen = KeyGenerator.getInstance("AES");
         SecretKey key = keyGen.generateKey();
         Cipher cipher = Cipher.getInstance(crypto);
         cipher.init(Cipher.ENCRYPT_MODE, key);
     }
 
 	public void go() throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException{
-		go("AES/CBC/PKCS5Padding", "AES");
+		go("AES/CBC/PKCS5Padding");
 	}
 	public static void main (String [] args)  throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
 		System.out.println("REDEFINITION PASSED");

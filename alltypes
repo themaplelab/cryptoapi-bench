@@ -1,0 +1,5 @@
+NeverTypeOfError: 15
+    RequiredPredicateError: 26
+    ConstraintError: 84
+    IncompleteOperationError: 63
+    ImpreciseValueExtractionError: 31

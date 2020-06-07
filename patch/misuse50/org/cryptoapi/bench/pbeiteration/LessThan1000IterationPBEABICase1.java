@@ -5,7 +5,7 @@ import java.security.SecureRandom;
 
 public class LessThan1000IterationPBEABICase1 {
 
-    public static void main(){
+    public static void main(String [] args){
 		System.out.println("REDEFINITION PASSED");
         LessThan1000IterationPBEABICase1 lt = new LessThan1000IterationPBEABICase1();
         int count = 10200;

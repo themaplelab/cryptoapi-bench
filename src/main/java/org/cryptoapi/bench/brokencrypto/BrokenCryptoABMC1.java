@@ -14,4 +14,8 @@ public class BrokenCryptoABMC1 {
         Cipher cipher = Cipher.getInstance(crypto);
         cipher.init(Cipher.ENCRYPT_MODE, key);
     }
+	public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException{
+        BrokenCryptoABMC1 b = new BrokenCryptoABMC1();
+        b.go("AES", "AES");
+    }
 }

@@ -21,7 +21,7 @@ public class BrokenCryptoABICase15 {
 
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
 
-        String crypto = "IDEA";
+        String crypto = "DES";
         method2(crypto);
     }
 }

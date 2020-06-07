@@ -28,4 +28,9 @@ public class InsecureAsymmetricCipherABMC1 {
         String message = (String) encryptedMessage.getObject(dec);
         System.out.println(message);
     }
+
+    public static void main(String args[]) throws IOException, IllegalBlockSizeException, BadPaddingException, ClassNotFoundException, InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException {
+        InsecureAsymmetricCipherABMC1 i = new InsecureAsymmetricCipherABMC1();
+		i.go(1024);
+    }
 }

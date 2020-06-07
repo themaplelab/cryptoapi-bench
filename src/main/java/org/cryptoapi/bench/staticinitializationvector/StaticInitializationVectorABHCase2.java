@@ -19,7 +19,7 @@ public class StaticInitializationVectorABHCase2 {
 
         String name = "abcdef";
         Map<String,String> hm = new HashMap<String, String>();
-        hm.put("aaa", "abcde");
+        hm.put("aaa", "CAR 100000000000");
         hm.put("bbb", "fghij");
         hm.put("ccc", "klmno");
         hm.put("ddd", "pqrst");

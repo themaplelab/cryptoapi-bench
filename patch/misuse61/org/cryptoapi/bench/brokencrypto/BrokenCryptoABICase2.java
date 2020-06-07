@@ -8,8 +8,8 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 public class BrokenCryptoABICase2 {
-    public void go(String crypto, String k) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
-        KeyGenerator keyGen = KeyGenerator.getInstance(k);
+    public void go(String crypto) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
+        KeyGenerator keyGen = KeyGenerator.getInstance("AES");
         SecretKey key = keyGen.generateKey();
         Cipher cipher = Cipher.getInstance(crypto);
         cipher.init(Cipher.ENCRYPT_MODE, key);
@@ -19,6 +19,6 @@ public class BrokenCryptoABICase2 {
 		System.out.println("REDEFINITION PASSED");
         BrokenCryptoABICase2 bc = new BrokenCryptoABICase2();
         String crypto = "AES/CBC/PKCS5Padding";
-        bc.go(crypto, "AES");
+        bc.go(crypto);
     }
 }

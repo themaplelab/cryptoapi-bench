@@ -1,0 +1,21 @@
+import java.util.concurrent.TimeUnit;
+
+//a test for if this will falsely cause a redef
+
+public class TestRunner501{
+
+	public static void main(String[] args) {
+		System.out.println("TESTING FOR: BrokenCryptoABICase501");
+		BrokenCryptoABICase501 bc = new BrokenCryptoABICase501();
+		bc.go("AES/CBC/PKCS5Padding");		
+		
+		for(int i = 0; i < 50200; i++){
+			bc.go("AES/CBC/PKCS5Padding");
+		}
+		TimeUnit.SECONDS.sleep(30);
+		
+		bc.go("AES/CBC/PKCS5Padding");
+	}
+
+
+}

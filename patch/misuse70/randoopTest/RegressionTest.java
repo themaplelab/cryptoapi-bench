@@ -12,7 +12,7 @@ import java.lang.Exception;
 @Suite.SuiteClasses({ RegressionTest0.class, RegressionTest1.class, RegressionTest2.class, RegressionTest3.class, RegressionTest4.class, RegressionTest5.class, RegressionTest6.class, RegressionTest7.class })
 public class RegressionTest {
 
- @BeforeClass
+	@BeforeClass
     public static void setUpClass() throws Throwable {
 	 System.out.println("Testsuite setup: ");
 	 System.out.println("########################");	

@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 import java.lang.Exception;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ RegressionTest0.class })
+@Suite.SuiteClasses({ RegressionTest0.class, RegressionTest1.class, RegressionTest2.class, RegressionTest3.class, RegressionTest4.class, RegressionTest5.class, RegressionTest6.class, RegressionTest7.class })
 public class RegressionTest {
 
  @BeforeClass

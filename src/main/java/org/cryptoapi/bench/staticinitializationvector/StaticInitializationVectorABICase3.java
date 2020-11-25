@@ -22,7 +22,7 @@ public class StaticInitializationVectorABICase3 {
     }
 
     public static void main (String [] args) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException {
-        byte [] bytes = "abcde".getBytes();
+        byte [] bytes = "abcdabcdabcdabcd".getBytes();
 
         method1(bytes);
     }

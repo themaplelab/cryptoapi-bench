@@ -17,14 +17,18 @@ public class PredictableKeyStorePasswordABPSCase1 {
     }
 
     public void go(int choice) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+		try{
         String type = "JKS";
         KeyStore ks = KeyStore.getInstance(type);
-        cacerts = new URL("https://www.google.com");
+        cacerts = new URL("https://no");
         String defaultKey = "changeit";
         if(choice>1){
             SecureRandom random = new SecureRandom();
             defaultKey = String.valueOf(random.ints());
         }
         ks.load(cacerts.openStream(), defaultKey.toCharArray());
+		}catch(KeyStoreException |  IOException e){
+            System.out.println("This keystore operation does not work!...");
+        }
     }
 }

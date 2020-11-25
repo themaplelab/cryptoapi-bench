@@ -10,110 +10,35 @@ public class RegressionTest0 {
     public static boolean debug = false;
 
     @Test
-    public void test01() throws Throwable {
+    public void test1() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test01");
+            System.out.format("%n%s%n", "RegressionTest0.test1");
         // The following exception was thrown during execution in test generation
         try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method2("hi!", "");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message:  KeyGenerator not available");
+            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method2("hi!");
+            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: Cannot find any provider supporting hi!");
         } catch (java.security.NoSuchAlgorithmException e) {
         // Expected exception.
         }
     }
 
     @Test
-    public void test02() throws Throwable {
+    public void test2() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test02");
+            System.out.format("%n%s%n", "RegressionTest0.test2");
         // The following exception was thrown during execution in test generation
         try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method1("", "hi!");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: hi! KeyGenerator not available");
+            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method2("");
+            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: Invalid transformation format:");
         } catch (java.security.NoSuchAlgorithmException e) {
         // Expected exception.
         }
     }
 
     @Test
-    public void test03() throws Throwable {
+    public void test3() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test03");
-        java.lang.Object obj0 = new java.lang.Object();
-        java.lang.Class<?> wildcardClass1 = obj0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass1);
-    }
-
-    @Test
-    public void test04() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test04");
-        // The following exception was thrown during execution in test generation
-        try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method1("hi!", "hi!");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: hi! KeyGenerator not available");
-        } catch (java.security.NoSuchAlgorithmException e) {
-        // Expected exception.
-        }
-    }
-
-    @Test
-    public void test05() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test05");
-        // The following exception was thrown during execution in test generation
-        try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method1("", "");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message:  KeyGenerator not available");
-        } catch (java.security.NoSuchAlgorithmException e) {
-        // Expected exception.
-        }
-    }
-
-    @Test
-    public void test06() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test06");
-        // The following exception was thrown during execution in test generation
-        try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method1("hi!", "");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message:  KeyGenerator not available");
-        } catch (java.security.NoSuchAlgorithmException e) {
-        // Expected exception.
-        }
-    }
-
-    @Test
-    public void test07() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test07");
-        // The following exception was thrown during execution in test generation
-        try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method2("hi!", "hi!");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: hi! KeyGenerator not available");
-        } catch (java.security.NoSuchAlgorithmException e) {
-        // Expected exception.
-        }
-    }
-
-    @Test
-    public void test08() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test08");
-        // The following exception was thrown during execution in test generation
-        try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method2("", "hi!");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: hi! KeyGenerator not available");
-        } catch (java.security.NoSuchAlgorithmException e) {
-        // Expected exception.
-        }
-    }
-
-    @Test
-    public void test09() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test09");
+            System.out.format("%n%s%n", "RegressionTest0.test3");
         org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14 brokenCryptoABICase14_0 = new org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14();
         java.lang.Class<?> wildcardClass1 = brokenCryptoABICase14_0.getClass();
         // Regression assertion (captures the current behavior of the code)
@@ -121,16 +46,39 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test10() throws Throwable {
+    public void test4() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test10");
+            System.out.format("%n%s%n", "RegressionTest0.test4");
         // The following exception was thrown during execution in test generation
         try {
-            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method2("", "");
-            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message:  KeyGenerator not available");
+            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method1("hi!");
+            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: Cannot find any provider supporting hi!");
         } catch (java.security.NoSuchAlgorithmException e) {
         // Expected exception.
         }
+    }
+
+    @Test
+    public void test5() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test5");
+        // The following exception was thrown during execution in test generation
+        try {
+            org.cryptoapi.bench.brokencrypto.BrokenCryptoABICase14.method1("");
+            org.junit.Assert.fail("Expected exception of type java.security.NoSuchAlgorithmException; message: Invalid transformation format:");
+        } catch (java.security.NoSuchAlgorithmException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test6() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test6");
+        java.lang.Object obj0 = new java.lang.Object();
+        java.lang.Class<?> wildcardClass1 = obj0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass1);
     }
 }
 

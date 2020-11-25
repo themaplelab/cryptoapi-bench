@@ -12,7 +12,7 @@ public class InsecureAsymmetricCipherBBCase1 {
         KeyPair kp = kgp.generateKeyPair();
 
 
-        Cipher cipher = Cipher.getInstance("RSA");
+        Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
         cipher.init(Cipher.ENCRYPT_MODE, kp.getPublic());
 
         //encrypting
@@ -20,7 +20,7 @@ public class InsecureAsymmetricCipherBBCase1 {
         SealedObject encryptedMessage = new SealedObject(myMessage,cipher);
 
         //decrypting
-        Cipher dec = Cipher.getInstance("RSA");
+        Cipher dec = Cipher.getInstance("RSA/ECB/PKCS1Padding");
         dec.init(Cipher.DECRYPT_MODE, kp.getPrivate());
 
         String message = (String) encryptedMessage.getObject(dec);

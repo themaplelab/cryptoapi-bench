@@ -11,6 +11,9 @@ public class PredictablePBEPasswordABSCase1 {
         crypto = new CryptoPredictablePBE(password);
         crypto.method1("");
     }
+	 public static void main (String [] args){
+        PredictablePBEPasswordABSCase1 p = new PredictablePBEPasswordABSCase1();
+    }
 }
 
 

@@ -12,6 +12,9 @@ import java.util.Arrays;
 
 public class PredictableCryptographicKeyABSCase1 {
     Crypto crypto;
+	public static void main (String [] args) throws NoSuchAlgorithmException, NoSuchPaddingException{
+        PredictableCryptographicKeyABSCase1 p = new PredictableCryptographicKeyABSCase1();
+    }
     public PredictableCryptographicKeyABSCase1() throws NoSuchAlgorithmException, NoSuchPaddingException {
         String passKey = PredictableCryptographicKeyABSCase1.getKey("pass.key");
 

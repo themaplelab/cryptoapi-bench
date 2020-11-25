@@ -13,7 +13,7 @@ public class PredictableKeyStorePasswordABICase2 {
     private static char[] ENCRYPT_KEY;
     private static char[] encryptKey;
     URL cacerts;
-    public static void main(String [] args) throws CertificateException, NoSuchAlgorithmException, KeyStoreException, IOException {
+    public static void main(String [] args) throws CertificateException, NoSuchAlgorithmException{
 		System.out.println("REDEFINITION PASSED");
         PredictableKeyStorePasswordABICase2 pksp = new PredictableKeyStorePasswordABICase2();
         go2();
@@ -28,8 +28,9 @@ public class PredictableKeyStorePasswordABICase2 {
         encryptKey = ENCRYPT_KEY;
     }
 
-    private void go() throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
-		 String type = "JKS";
+    private void go() throws CertificateException, NoSuchAlgorithmException {
+		try{
+		String type = "JKS";
         KeyStore ks = KeyStore.getInstance(type);
         cacerts = new URL("https://www.google.com");
 
@@ -41,5 +42,8 @@ public class PredictableKeyStorePasswordABICase2 {
         }
 
         ks.load(cacerts.openStream(), pwd);
+		}catch(KeyStoreException |  IOException e){
+            System.out.println("This keystore operation does not work!...");
+        }
     }
 }

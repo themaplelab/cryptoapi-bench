@@ -9,4 +9,8 @@ public class PredictableCryptographicKeyABMC1 {
         keyBytes = Arrays.copyOf(keyBytes,16);
         SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
     }
+	public static void main (String [] args){
+        PredictableCryptographicKeyABMC1 p = new PredictableCryptographicKeyABMC1();
+        p.go("Test");
+    }
 }

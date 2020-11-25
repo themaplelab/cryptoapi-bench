@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 public class StaticInitializationVectorABICase2 {
-    public static final String DEFAULT_INITIALIZATION = "abcde";
+    public static final String DEFAULT_INITIALIZATION = "abcdabcdabcdabcd";
     private static char[] INITIALIZATION;
     private static char[] initialization;
     public void go() throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException {

@@ -28,7 +28,7 @@ public class RegressionTest {
 		 for(int i = 0; i < 50200; i++){
             m.invoke(null, (Object) params);
 		 }
-		 TimeUnit.SECONDS.sleep(100);
+		 TimeUnit.SECONDS.sleep(150);
 		 
 		 m.invoke(null, (Object) params);
 	 }catch(Exception e){

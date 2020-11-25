@@ -1,1 +1,1 @@
-org.cryptoapi.bench.predictablepbepassword.CryptoPredictablePBE
+org.cryptoapi.bench.predictablepbepassword.PredictablePBEPasswordABSCase1

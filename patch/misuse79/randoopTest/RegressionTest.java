@@ -37,4 +37,3 @@ public class RegressionTest {
 	 System.out.println("########################");
  }
 }
-

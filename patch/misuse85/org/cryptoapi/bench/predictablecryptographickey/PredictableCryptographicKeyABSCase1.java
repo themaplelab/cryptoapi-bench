@@ -9,6 +9,11 @@ import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
+import java.security.GeneralSecurityException;
+import java.security.SecureRandom;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
 
 public class PredictableCryptographicKeyABSCase1 {
     Crypto crypto;
@@ -50,11 +55,26 @@ class Crypto {
         if(key.isEmpty()){
             key = defaultKey;
         }
+		SecretKeySpec keySpec = null;
+		 try{
+			 final byte[] salt = new byte[32];
+			 SecureRandom.getInstanceStrong().nextBytes(salt);
+			 char[] corPwd  = new char[20];
+			 SecureRandom rnd = new SecureRandom();
+			 for (int i = 0; i < 20; i++) {
+				 corPwd[i] = (char) (rnd.nextInt(26) + 'a');
+			 }
+			 final PBEKeySpec pbekeyspec = new PBEKeySpec(corPwd, salt, 65000, 128);
+			 final SecretKeyFactory secFac = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+			 SecretKey tmpKey = secFac.generateSecret(pbekeyspec);
+			 pbekeyspec.clearPassword();
+			 byte[] keyMaterial = tmpKey.getEncoded();
+			 keySpec = new SecretKeySpec(keyMaterial, "AES");
+		 }catch(GeneralSecurityException  e){
+			 System.out.println("Exception");
+		 }
 
-		byte[] keyBytes = defaultKey.getBytes();
-        keyBytes = Arrays.copyOf(keyBytes,16);
-        SecretKeySpec keySpec = new SecretKeySpec(keyBytes,algo);
-        cipher.init(Cipher.ENCRYPT_MODE,keySpec);
+		cipher.init(Cipher.ENCRYPT_MODE,keySpec);
         return cipher.doFinal(txt.getBytes());
     }
 }

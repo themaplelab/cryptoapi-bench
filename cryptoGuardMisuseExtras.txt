@@ -1,0 +1,17 @@
+org/cryptoapi/bench/predictableseeds/PredictableSeedsABPSCase1
+org/cryptoapi/bench/brokencrypto/BrokenCryptoABPSCase1
+org/cryptoapi/bench/brokencrypto/BrokenCryptoABPSCase2
+org/cryptoapi/bench/brokencrypto/BrokenCryptoABPSCase3
+org/cryptoapi/bench/brokencrypto/BrokenCryptoABPSCase4
+org/cryptoapi/bench/brokencrypto/BrokenCryptoABPSCase5
+org/cryptoapi/bench/brokenhash/BrokenHashABPSCase1
+org/cryptoapi/bench/brokenhash/BrokenHashABPSCase2
+org/cryptoapi/bench/brokenhash/BrokenHashABPSCase3
+org/cryptoapi/bench/brokenhash/BrokenHashABPSCase4
+org/cryptoapi/bench/ecbcrypto/EcbInSymmCryptoABPSCase1
+org/cryptoapi/bench/insecureasymmetriccrypto/InsecureAsymmetricCipherABPSCase1
+org/cryptoapi/bench/pbeiteration/LessThan1000IterationPBEABPSCase1
+org/cryptoapi/bench/predictablekeystorepassword/PredictableKeyStorePasswordABPSCase1
+org/cryptoapi/bench/predictablepbepassword/PredictablePBEPasswordABPSCase1
+org/cryptoapi/bench/staticsalts/StaticSaltsABPSCase1
+org/cryptoapi/bench/predictablecryptographickey/PredictableCryptographicKeyABPSCase1

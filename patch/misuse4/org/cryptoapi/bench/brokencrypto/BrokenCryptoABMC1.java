@@ -9,9 +9,9 @@ import java.security.NoSuchAlgorithmException;
 
 public class BrokenCryptoABMC1 {
     public void go(String crypto, String cryptoKey) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
-        KeyGenerator keyGen = KeyGenerator.getInstance(cryptoKey);
+        KeyGenerator keyGen = KeyGenerator.getInstance("AES");
         SecretKey key = keyGen.generateKey();
-        Cipher cipher = Cipher.getInstance(crypto);
+        Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
         cipher.init(Cipher.ENCRYPT_MODE, key);
     }
 

@@ -12,25 +12,33 @@ import java.security.SecureRandom;
 
 public class PredictableKeyStorePasswordABHCase2 {
     URL cacerts;
-    public static void main(String args[]) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public static void main(String args[]) throws CertificateException, NoSuchAlgorithmException {
 		System.out.println("REDEFINITION PASSED");
-        PredictableKeyStorePasswordBBCase1 pksp = new PredictableKeyStorePasswordBBCase1();
+		PredictableKeyStorePasswordABHCase2 pksp = new PredictableKeyStorePasswordABHCase2();
         pksp.go();
     }
 
-    public void go() throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
-		String type = "JKS";
-	KeyStore ks = KeyStore.getInstance(type);
-	cacerts = new URL("https://www.google.com");
-
-	SecureRandom random = new SecureRandom();
-	int [] randints =random.ints().toArray();
-        char [] pwd = new char[randints.length];
-        for (int i =0 ; i < randints.length; i++){
-            pwd[i] = (char) (randints[i] % 65535);
-        }
-	
-	ks.load(cacerts.openStream(), pwd);
-    }
+    public void go() throws CertificateException, NoSuchAlgorithmException {
+		try{
+			String type = "JKS";
+			KeyStore ks = KeyStore.getInstance(type);
+			cacerts = new URL("https://www.google.com");
+			
+			SecureRandom random = new SecureRandom();
+			int[] randints = new int[6];
+			char [] pwd = new char[randints.length];
+			for(int i= 0; i< randints.length ; i++){
+				// 0 to 100000 bound
+				randints[i] = random.nextInt(100000);   
+			}
+			for (int i =0 ; i < randints.length; i++){
+				pwd[i] = (char) (randints[i] % 65535);
+			}
+			
+			ks.load(cacerts.openStream(), pwd);
+		} catch( KeyStoreException | IOException e ){
+			System.out.println("This keystore operation does not work!...");
+		}
+	}
 
 }

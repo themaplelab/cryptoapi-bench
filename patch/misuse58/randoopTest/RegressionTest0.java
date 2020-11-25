@@ -25,7 +25,7 @@ public class RegressionTest0 {
             System.out.format("%n%s%n", "RegressionTest0.test002");
         java.lang.String str0 = org.cryptoapi.bench.staticinitializationvector.StaticInitializationVectorABICase2.DEFAULT_INITIALIZATION;
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertTrue("'" + str0 + "' != '" + "abcde" + "'", str0.equals("abcde"));
+        org.junit.Assert.assertTrue("'" + str0 + "' != '" + "abcdabcdabcdabcd" + "'", str0.equals("abcdabcdabcdabcd"));
     }
 
     @Test

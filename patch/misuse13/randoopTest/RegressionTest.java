@@ -11,8 +11,7 @@ import java.lang.Exception;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({ RegressionTest0.class })
 public class RegressionTest {
-
- @BeforeClass
+	@BeforeClass
     public static void setUpClass() throws Throwable {
 	 System.out.println("Testsuite setup: ");
 	 System.out.println("########################");	

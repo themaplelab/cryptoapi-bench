@@ -10,14 +10,15 @@ import java.security.SecureRandom;
 
 public class PredictableKeyStorePasswordABICase1 {
     URL cacerts;
-    public static void main(String args[]) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public static void main(String args[]) throws  CertificateException, NoSuchAlgorithmException {
 		System.out.println("REDEFINITION PASSED");
         PredictableKeyStorePasswordABICase1 pksp = new PredictableKeyStorePasswordABICase1();
         String key = "changeit";
         pksp.go(key);
     }
 
-    public void go(String key) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public void go(String key) throws  CertificateException, NoSuchAlgorithmException {
+		try{
 		String type = "JKS";
         KeyStore ks = KeyStore.getInstance(type);
         cacerts = new URL("https://www.google.com");
@@ -30,5 +31,8 @@ public class PredictableKeyStorePasswordABICase1 {
         }
 
         ks.load(cacerts.openStream(), pwd);
+		}catch(KeyStoreException |  IOException e){
+            System.out.println("This keystore operation does not work!...");
+        }
     }
 }

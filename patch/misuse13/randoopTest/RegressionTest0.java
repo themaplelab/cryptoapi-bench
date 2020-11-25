@@ -13,43 +13,25 @@ public class RegressionTest0 {
     public void test001() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test001");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2.main();
+        java.lang.Object obj0 = new java.lang.Object();
+        java.lang.Class<?> wildcardClass1 = obj0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
     @Test
     public void test002() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test002");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass2 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass2);
-    }
-
-    @Test
-    public void test003() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test003");
         java.lang.String str0 = org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2.DEFAULT_COUNT;
         // Regression assertion (captures the current behavior of the code)
         org.junit.Assert.assertTrue("'" + str0 + "' != '" + "10000" + "'", str0.equals("10000"));
     }
 
     @Test
-    public void test004() throws Throwable {
+    public void test003() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test004");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        java.lang.Class<?> wildcardClass1 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass1);
-    }
-
-    @Test
-    public void test005() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test005");
+            System.out.format("%n%s%n", "RegressionTest0.test003");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -59,9 +41,44 @@ public class RegressionTest0 {
     }
 
     @Test
+    public void test004() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test004");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass2 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass2);
+    }
+
+    @Test
+    public void test005() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test005");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass5 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass5);
+    }
+
+    @Test
     public void test006() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test006");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        java.lang.Class<?> wildcardClass1 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass1);
+    }
+
+    @Test
+    public void test007() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test007");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -69,16 +86,6 @@ public class RegressionTest0 {
         java.lang.Class<?> wildcardClass4 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
         org.junit.Assert.assertNotNull(wildcardClass4);
-    }
-
-    @Test
-    public void test007() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test007");
-        java.lang.Object obj0 = new java.lang.Object();
-        java.lang.Class<?> wildcardClass1 = obj0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
     @Test
@@ -91,9 +98,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass6 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass7 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
     }
 
     @Test
@@ -105,9 +113,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass5 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass6 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass5);
+        org.junit.Assert.assertNotNull(wildcardClass6);
     }
 
     @Test
@@ -175,9 +184,14 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass7 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass12 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass7);
+        org.junit.Assert.assertNotNull(wildcardClass12);
     }
 
     @Test
@@ -195,10 +209,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass12 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass11 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass12);
+        org.junit.Assert.assertNotNull(wildcardClass11);
     }
 
     @Test
@@ -216,9 +229,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass11 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass13 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass11);
+        org.junit.Assert.assertNotNull(wildcardClass13);
     }
 
     @Test
@@ -238,9 +253,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass13 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass14 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
     }
 
     @Test
@@ -261,9 +277,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass14 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass15 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
     }
 
     @Test
@@ -310,9 +327,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass15 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass17 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass15);
+        org.junit.Assert.assertNotNull(wildcardClass17);
     }
 
     @Test
@@ -336,9 +355,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass17 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass18 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
     }
 
     @Test
@@ -363,9 +383,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass18 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass20 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass18);
+        org.junit.Assert.assertNotNull(wildcardClass20);
     }
 
     @Test
@@ -420,9 +442,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass20 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass22 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass20);
+        org.junit.Assert.assertNotNull(wildcardClass22);
     }
 
     @Test
@@ -481,9 +505,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass22 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass24 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass22);
+        org.junit.Assert.assertNotNull(wildcardClass24);
     }
 
     @Test
@@ -546,9 +572,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass24 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass26 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass24);
+        org.junit.Assert.assertNotNull(wildcardClass26);
     }
 
     @Test
@@ -580,10 +608,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass26 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass25 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass26);
+        org.junit.Assert.assertNotNull(wildcardClass25);
     }
 
     @Test
@@ -615,9 +642,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass25 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass27 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass25);
+        org.junit.Assert.assertNotNull(wildcardClass27);
     }
 
     @Test
@@ -651,9 +680,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass27 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass29 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass27);
+        org.junit.Assert.assertNotNull(wildcardClass29);
     }
 
     @Test
@@ -726,44 +757,6 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass29 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass29);
-    }
-
-    @Test
-    public void test033() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test033");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         java.lang.Class<?> wildcardClass30 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
@@ -771,9 +764,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test034() throws Throwable {
+    public void test033() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test034");
+            System.out.format("%n%s%n", "RegressionTest0.test033");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -812,9 +805,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test035() throws Throwable {
+    public void test034() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test035");
+            System.out.format("%n%s%n", "RegressionTest0.test034");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -849,6 +842,48 @@ public class RegressionTest0 {
         java.lang.Class<?> wildcardClass31 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
         org.junit.Assert.assertNotNull(wildcardClass31);
+    }
+
+    @Test
+    public void test035() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test035");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass33 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass33);
     }
 
     @Test
@@ -888,9 +923,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass33 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass34 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass33);
+        org.junit.Assert.assertNotNull(wildcardClass34);
     }
 
     @Test
@@ -975,9 +1011,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass34 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass36 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass34);
+        org.junit.Assert.assertNotNull(wildcardClass36);
     }
 
     @Test
@@ -1066,9 +1104,13 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass36 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass40 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass36);
+        org.junit.Assert.assertNotNull(wildcardClass40);
     }
 
     @Test
@@ -1163,9 +1205,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass40 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass41 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass40);
+        org.junit.Assert.assertNotNull(wildcardClass41);
     }
 
     @Test
@@ -1260,9 +1303,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass41 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass42 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass41);
+        org.junit.Assert.assertNotNull(wildcardClass42);
     }
 
     @Test
@@ -1311,9 +1355,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass42 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass43 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass42);
+        org.junit.Assert.assertNotNull(wildcardClass43);
     }
 
     @Test
@@ -1363,9 +1408,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass43 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass45 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass43);
+        org.junit.Assert.assertNotNull(wildcardClass45);
     }
 
     @Test
@@ -1470,9 +1517,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass45 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass46 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass45);
+        org.junit.Assert.assertNotNull(wildcardClass46);
     }
 
     @Test
@@ -1525,9 +1573,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass46 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass49 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass46);
+        org.junit.Assert.assertNotNull(wildcardClass49);
     }
 
     @Test
@@ -1581,9 +1632,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass47 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass48 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass47);
+        org.junit.Assert.assertNotNull(wildcardClass48);
     }
 
     @Test
@@ -1637,10 +1689,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass48 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass47 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass48);
+        org.junit.Assert.assertNotNull(wildcardClass47);
     }
 
     @Test
@@ -1755,9 +1806,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass49 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass51 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass49);
+        org.junit.Assert.assertNotNull(wildcardClass51);
     }
 
     @Test
@@ -1876,9 +1929,13 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass51 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass55 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass51);
+        org.junit.Assert.assertNotNull(wildcardClass55);
     }
 
     @Test
@@ -1938,9 +1995,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass53 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass56 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass53);
+        org.junit.Assert.assertNotNull(wildcardClass56);
     }
 
     @Test
@@ -2131,9 +2191,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass55 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass58 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass55);
+        org.junit.Assert.assertNotNull(wildcardClass58);
     }
 
     @Test
@@ -2193,85 +2256,15 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass56 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass53 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass56);
+        org.junit.Assert.assertNotNull(wildcardClass53);
     }
 
     @Test
     public void test061() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test061");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass58 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass58);
-    }
-
-    @Test
-    public void test062() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test062");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -2337,9 +2330,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test063() throws Throwable {
+    public void test062() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test063");
+            System.out.format("%n%s%n", "RegressionTest0.test062");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -2406,9 +2399,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test064() throws Throwable {
+    public void test063() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test064");
+            System.out.format("%n%s%n", "RegressionTest0.test063");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -2477,9 +2470,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test065() throws Throwable {
+    public void test064() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test065");
+            System.out.format("%n%s%n", "RegressionTest0.test064");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -2546,6 +2539,76 @@ public class RegressionTest0 {
         java.lang.Class<?> wildcardClass63 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
         org.junit.Assert.assertNotNull(wildcardClass63);
+    }
+
+    @Test
+    public void test065() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test065");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass61 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass61);
     }
 
     @Test
@@ -2616,9 +2679,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass64 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass65 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass64);
+        org.junit.Assert.assertNotNull(wildcardClass65);
     }
 
     @Test
@@ -2686,9 +2750,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass61 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass64 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass61);
+        org.junit.Assert.assertNotNull(wildcardClass64);
     }
 
     @Test
@@ -2760,9 +2827,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass65 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass66 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass65);
+        org.junit.Assert.assertNotNull(wildcardClass66);
     }
 
     @Test
@@ -2835,9 +2903,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass66 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass68 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass66);
+        org.junit.Assert.assertNotNull(wildcardClass68);
     }
 
     @Test
@@ -2988,9 +3058,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass68 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass70 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass68);
+        org.junit.Assert.assertNotNull(wildcardClass70);
     }
 
     @Test
@@ -3145,9 +3217,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass70 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass73 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass70);
+        org.junit.Assert.assertNotNull(wildcardClass73);
     }
 
     @Test
@@ -3225,9 +3300,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass71 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass72 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass71);
+        org.junit.Assert.assertNotNull(wildcardClass72);
     }
 
     @Test
@@ -3305,10 +3381,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass72 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass71 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass72);
+        org.junit.Assert.assertNotNull(wildcardClass71);
     }
 
     @Test
@@ -3388,9 +3463,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass73 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass74 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass73);
+        org.junit.Assert.assertNotNull(wildcardClass74);
     }
 
     @Test
@@ -3471,9 +3547,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass74 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass75 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass74);
+        org.junit.Assert.assertNotNull(wildcardClass75);
     }
 
     @Test
@@ -3555,9 +3632,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass75 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass76 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass75);
+        org.junit.Assert.assertNotNull(wildcardClass76);
     }
 
     @Test
@@ -3726,9 +3804,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass76 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass79 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass76);
+        org.junit.Assert.assertNotNull(wildcardClass79);
     }
 
     @Test
@@ -3813,103 +3894,15 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass79 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass79);
-    }
-
-    @Test
-    public void test082() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test082");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
         java.lang.Class<?> wildcardClass78 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
         org.junit.Assert.assertNotNull(wildcardClass78);
     }
 
     @Test
-    public void test083() throws Throwable {
+    public void test082() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test083");
+            System.out.format("%n%s%n", "RegressionTest0.test082");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -3996,9 +3989,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test084() throws Throwable {
+    public void test083() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test084");
+            System.out.format("%n%s%n", "RegressionTest0.test083");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -4087,6 +4080,98 @@ public class RegressionTest0 {
     }
 
     @Test
+    public void test084() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test084");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass83 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass83);
+    }
+
+    @Test
     public void test085() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test085");
@@ -4171,12 +4256,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass84 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass81 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass84);
+        org.junit.Assert.assertNotNull(wildcardClass81);
     }
 
     @Test
@@ -4264,9 +4346,13 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass81 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass85 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass81);
+        org.junit.Assert.assertNotNull(wildcardClass85);
     }
 
     @Test
@@ -4356,9 +4442,12 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass83 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass86 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass83);
+        org.junit.Assert.assertNotNull(wildcardClass86);
     }
 
     @Test
@@ -4449,10 +4538,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass85 = lessThan1000IterationPBEABICase2_0.getClass();
+        java.lang.Class<?> wildcardClass84 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass85);
+        org.junit.Assert.assertNotNull(wildcardClass84);
     }
 
     @Test
@@ -4545,9 +4633,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass86 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass87 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass86);
+        org.junit.Assert.assertNotNull(wildcardClass87);
     }
 
     @Test
@@ -4641,9 +4730,11 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass87 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass89 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass87);
+        org.junit.Assert.assertNotNull(wildcardClass89);
     }
 
     @Test
@@ -4739,9 +4830,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass89 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass90 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass89);
+        org.junit.Assert.assertNotNull(wildcardClass90);
     }
 
     @Test
@@ -4936,6 +5028,106 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass91 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass91);
+    }
+
+    @Test
+    public void test094() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test094");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         java.lang.Class<?> wildcardClass92 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
@@ -4943,9 +5135,111 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test094() throws Throwable {
+    public void test095() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test094");
+            System.out.format("%n%s%n", "RegressionTest0.test095");
+        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass93 = lessThan1000IterationPBEABICase2_0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass93);
+    }
+
+    @Test
+    public void test096() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test096");
         org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
@@ -5046,207 +5340,6 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test095() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test095");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass90 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass90);
-    }
-
-    @Test
-    public void test096() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test096");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass93 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass93);
-    }
-
-    @Test
     public void test097() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test097");
@@ -5341,9 +5434,14 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass91 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass96 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass91);
+        org.junit.Assert.assertNotNull(wildcardClass96);
     }
 
     @Test
@@ -5550,9 +5648,10 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass96 = lessThan1000IterationPBEABICase2_0.getClass();
+        lessThan1000IterationPBEABICase2_0.key2();
+        java.lang.Class<?> wildcardClass97 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass96);
+        org.junit.Assert.assertNotNull(wildcardClass97);
     }
 
     @Test
@@ -5656,9 +5755,9 @@ public class RegressionTest0 {
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
         lessThan1000IterationPBEABICase2_0.key2();
-        java.lang.Class<?> wildcardClass97 = lessThan1000IterationPBEABICase2_0.getClass();
-        // Regression assertion (captures the current behavior of the code)
-        org.junit.Assert.assertNotNull(wildcardClass97);
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
+        lessThan1000IterationPBEABICase2_0.key2();
     }
 
     @Test
@@ -5874,112 +5973,6 @@ public class RegressionTest0 {
         java.lang.Class<?> wildcardClass99 = lessThan1000IterationPBEABICase2_0.getClass();
         // Regression assertion (captures the current behavior of the code)
         org.junit.Assert.assertNotNull(wildcardClass99);
-    }
-
-    @Test
-    public void test103() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test103");
-        org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2 lessThan1000IterationPBEABICase2_0 = new org.cryptoapi.bench.pbeiteration.LessThan1000IterationPBEABICase2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
-        lessThan1000IterationPBEABICase2_0.key2();
     }
 }
 

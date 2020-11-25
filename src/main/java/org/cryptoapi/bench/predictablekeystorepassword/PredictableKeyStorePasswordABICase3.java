@@ -9,21 +9,25 @@ import java.security.cert.CertificateException;
 
 public class PredictableKeyStorePasswordABICase3 {
     URL cacerts;
-    public static void main(String args[]) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public static void main(String args[]) throws  CertificateException, NoSuchAlgorithmException {
         PredictableKeyStorePasswordABICase3 pkspac = new PredictableKeyStorePasswordABICase3();
         String key = "changeit";
         pkspac.method1(key);
     }
 
-    public void method1(String k) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public void method1(String k) throws  CertificateException, NoSuchAlgorithmException {
         String key2 = k;
         method2(key2);
     }
 
-    public void method2(String key) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public void method2(String key) throws CertificateException, NoSuchAlgorithmException {
+		try{
         String type = "JKS";
         KeyStore ks = KeyStore.getInstance(type);
-        cacerts = new URL("https://www.google.com");
+        cacerts = new URL("https://no");
         ks.load(cacerts.openStream(), key.toCharArray());
-    }
+    }catch(KeyStoreException |  IOException e){
+            System.out.println("This keystore operation does not work!...");
+        }
+	}
 }

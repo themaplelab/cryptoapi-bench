@@ -46,5 +46,6 @@ class CryptoPredictablePBE {
             pwd[i] = (char) (randints[i] % 65535);
         }
         pbeKeySpec = new PBEKeySpec(pwd,salt,iterationCount,keyLength);
+		pbeKeySpec.clearPassword();
     }
 }

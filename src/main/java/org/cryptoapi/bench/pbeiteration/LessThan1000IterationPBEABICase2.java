@@ -7,7 +7,7 @@ public class LessThan1000IterationPBEABICase2 {
     public static final String DEFAULT_COUNT = "20";
     private static char[] COUNT;
     private static char[] count;
-    public static void main(){
+    public static void main(String[] args){
         LessThan1000IterationPBEABICase2 lt = new LessThan1000IterationPBEABICase2();
         go2();
         go3();
@@ -24,7 +24,7 @@ public class LessThan1000IterationPBEABICase2 {
         PBEParameterSpec pbeParamSpec = null;
         byte[] salt = new byte[32];
         random.nextBytes(salt);
-
+		Accessory.callCount(DEFAULT_COUNT);
         pbeParamSpec = new PBEParameterSpec(salt, Integer.parseInt(String.valueOf(count)));
     }
 }

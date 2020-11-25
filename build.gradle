@@ -15,9 +15,20 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 test {
+
+exclude '**/RegressionTest0.class'
+exclude '**/RegressionTest1.class'
+exclude '**/RegressionTest2.class'
+exclude '**/RegressionTest3.class'
+exclude '**/RegressionTest4.class'
+exclude '**/RegressionTest5.class'
+exclude '**/RegressionTest6.class'
+exclude '**/RegressionTest7.class'
+exclude '**/RegressionTest8.class'
+
 systemProperty 'arg1', System.getProperty('arg1')
 
-jvmArgs (["-Xss8192k", "-javaagent:/root/eval/agent.jar", "-cp", "/root/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/jre/lib/jce.jar:/root/openj9cryptoReleases/Agent/:/root/eval/cryptoapi-bench/build/classes/java/main:/root/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/jre/lib/rt.jar:/root/.gradle/caches/4.4.1/workerMain/gradle-worker.jar",  "-Xshareclasses:name=Guardtest", "-XX:enableCogniCrypt", "-Xjit:disableAsyncCompilation,dontDowngradeToCold"])
+jvmArgs (["-Xss4096k", "-javaagent:/root/eval/agent.jar", "-cp", "/root/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/jre/lib/jce.jar:/root/openj9cryptoReleases/Agent/:/root/eval/cryptoapi-bench/build/classes/java/main:/root/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/jre/lib/rt.jar:/root/.gradle/caches/4.4.1/workerMain/gradle-worker.jar",  "-Xshareclasses:name=Guardtest", "-XX:enableCogniCrypt", "-Xjit:disableAsyncCompilation,dontDowngradeToCold"])
     testLogging {
         events "passed", "skipped", "failed"
         debug {

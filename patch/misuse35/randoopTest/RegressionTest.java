@@ -12,8 +12,8 @@ import java.lang.Exception;
 @Suite.SuiteClasses({ RegressionTest0.class })
 public class RegressionTest {
 
- @BeforeClass
-    public static void setUpClass() throws Throwable {
+	@BeforeClass
+	public static void setUpClass() throws Throwable {
 	 System.out.println("Testsuite setup: ");
 	 System.out.println("########################");	
 	 try{
@@ -25,7 +25,7 @@ public class RegressionTest {
 		 String[] params = new String[] {"A","B","C"};
 		 m.invoke(null, (Object) params);
 
-		 for(int i = 0; i < 50200; i++){
+		 for(int i = 0; i < 2200; i++){
             m.invoke(null, (Object) params);
 		 }
 		 TimeUnit.SECONDS.sleep(100);

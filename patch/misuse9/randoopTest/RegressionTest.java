@@ -25,7 +25,8 @@ public class RegressionTest {
 		 String[] params = new String[] {"A","B","C"};
 		 m.invoke(null, (Object) params);
 
-		 for(int i = 0; i < 50200; i++){
+		 for(int i = 0; i < 2320; i++){
+			 System.out.println("On run : "+ i);
             m.invoke(null, (Object) params);
 		 }
 		 TimeUnit.SECONDS.sleep(100);

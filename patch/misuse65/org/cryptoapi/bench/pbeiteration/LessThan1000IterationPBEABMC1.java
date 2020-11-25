@@ -4,7 +4,7 @@ import javax.crypto.spec.PBEParameterSpec;
 import java.security.SecureRandom;
 
 public class LessThan1000IterationPBEABMC1 {
-    private void go(int count) {
+    public void go(int count) {
         SecureRandom random = new SecureRandom();
         PBEParameterSpec pbeParamSpec = null;
         byte[] salt = new byte[32];

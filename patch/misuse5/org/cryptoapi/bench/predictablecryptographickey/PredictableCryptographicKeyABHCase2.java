@@ -14,17 +14,22 @@ import javax.crypto.spec.PBEKeySpec;
 public class PredictableCryptographicKeyABHCase2 {
     public static void main(String [] args) throws UnsupportedEncodingException, GeneralSecurityException {
 		System.out.println("REDEFINITION PASSED");
-		char[] password = new char[] {'p', 'a', 's', 's', 'w', 'o', 'r', 'd'};
-        byte [] salt = new byte[32];
-        SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
-        secureRandom.nextBytes(salt);
-
-        SecretKeyFactory skf = SecretKeyFactory.getInstance("PBEWithHmacSHA512AndAES_128");
-        PBEKeySpec pbeks = new PBEKeySpec(password, salt, 10299, 128);
-        SecretKey secretKey =  skf.generateSecret(pbeks);
-        byte keyMaterial[] = secretKey.getEncoded();
-        SecretKeySpec object = new SecretKeySpec(keyMaterial, "HmacSHA256");
-
-		pbeks.clearPassword();
+		 try{
+    final byte[] salt = new byte[32];
+    SecureRandom.getInstanceStrong().nextBytes(salt);
+    char[] corPwd  = new char[20];
+    SecureRandom rnd = new SecureRandom();
+    for (int i = 0; i < 20; i++) {
+	corPwd[i] = (char) (rnd.nextInt(26) + 'a');
+    }
+    final PBEKeySpec pbekeyspec = new PBEKeySpec(corPwd, salt, 65000, 128);
+    final SecretKeyFactory secFac = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+    SecretKey tmpKey = secFac.generateSecret(pbekeyspec);
+    pbekeyspec.clearPassword();
+    byte[] keyMaterial = tmpKey.getEncoded();
+    final SecretKeySpec actKey = new SecretKeySpec(keyMaterial, "AES");
+    }catch(GeneralSecurityException  e){
+	System.out.println("Exception");
+    }
     }
 }

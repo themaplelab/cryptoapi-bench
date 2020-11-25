@@ -9,10 +9,11 @@ import java.lang.reflect.Method;
 import java.lang.Exception;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ RegressionTest0.class, RegressionTest1.class, RegressionTest2.class, RegressionTest3.class, RegressionTest4.class, RegressionTest5.class, RegressionTest6.class, RegressionTest7.class})
-public class RegressionTest {
+@Suite.SuiteClasses({ RegressionTest0.class })
 
- @BeforeClass
+	public class RegressionTest {
+
+	@BeforeClass
     public static void setUpClass() throws Throwable {
 	 System.out.println("Testsuite setup: ");
 	 System.out.println("########################");	
@@ -36,5 +37,4 @@ public class RegressionTest {
 	 }
 	 System.out.println("########################");
  }
-}
-
+	}

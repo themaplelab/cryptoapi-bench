@@ -14,4 +14,10 @@ public class BrokenCryptoABMC5 {
         Cipher cipher = Cipher.getInstance(crypto);
         cipher.init(Cipher.ENCRYPT_MODE, key);
     }
+
+    public static void main (String [] args) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
+        System.out.println("REDEFINITION PASSED");
+        BrokenCryptoABMC5 b = new BrokenCryptoABMC5();
+        b.go("DES");
+    }
 }

@@ -10,7 +10,7 @@ public class BrokenCryptoABPSCase5 {
     public void go(int choice) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
         KeyGenerator keyGen = KeyGenerator.getInstance("AES");
         SecretKey key = keyGen.generateKey();
-        Cipher cipher = Cipher.getInstance("IDEA");
+        Cipher cipher = Cipher.getInstance("AES/ECB/NoPadding");
         if (choice > 1)
             cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
 

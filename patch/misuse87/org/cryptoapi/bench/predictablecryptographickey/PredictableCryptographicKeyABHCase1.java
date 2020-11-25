@@ -1,18 +1,32 @@
 package org.cryptoapi.bench.predictablecryptographickey;
 
-import javax.crypto.spec.SecretKeySpec;
-import java.io.UnsupportedEncodingException;
+import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.security.SecureRandom;
-import java.util.Arrays;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.SecretKeySpec;
+import javax.crypto.spec.PBEKeySpec;
 
 public class PredictableCryptographicKeyABHCase1 {
-    public static void main(String [] args) throws UnsupportedEncodingException {
+    public static void main(String [] args)  {
 		System.out.println("REDEFINITION PASSED");
-        SecureRandom random = new SecureRandom();
-        String defaultKey = String.valueOf(random.ints().toArray());
-
-		byte[] keyBytes = defaultKey.getBytes();
-        keyBytes = Arrays.copyOf(keyBytes,16);
-        SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
+		try{
+    final byte[] salt = new byte[32];
+    SecureRandom.getInstanceStrong().nextBytes(salt);
+    char[] corPwd  = new char[20];
+    SecureRandom rnd = new SecureRandom();
+    for (int i = 0; i < 20; i++) {
+	corPwd[i] = (char) (rnd.nextInt(26) + 'a');
+    }
+    final PBEKeySpec pbekeyspec = new PBEKeySpec(corPwd, salt, 65000, 128);
+    final SecretKeyFactory secFac = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+    SecretKey tmpKey = secFac.generateSecret(pbekeyspec);
+    pbekeyspec.clearPassword();
+    byte[] keyMaterial = tmpKey.getEncoded();
+    final SecretKeySpec actKey = new SecretKeySpec(keyMaterial, "AES");
+    }catch(GeneralSecurityException  e){
+	System.out.println("Exception");
+    }
     }
 }

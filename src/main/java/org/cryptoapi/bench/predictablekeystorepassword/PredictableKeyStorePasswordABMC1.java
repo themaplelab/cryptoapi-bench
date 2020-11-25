@@ -10,13 +10,17 @@ import java.security.cert.CertificateException;
 
 public class PredictableKeyStorePasswordABMC1 {
     URL cacerts;
-    public void go(String key) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
+    public void go(String key) throws CertificateException, NoSuchAlgorithmException {
+		try{
         String type = "JKS";
         KeyStore ks = KeyStore.getInstance(type);
-        cacerts = new URL("https://www.google.com");
+        cacerts = new URL("https://no");
         ks.load(cacerts.openStream(), key.toCharArray());
-    }
-	public static void main (String [] args)throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException  {
+		}catch(KeyStoreException |  IOException e){
+            System.out.println("This keystore operation does not work!...");
+        }
+	}
+	public static void main (String [] args)throws  CertificateException, NoSuchAlgorithmException  {
         PredictableKeyStorePasswordABMC1 p = new PredictableKeyStorePasswordABMC1();
         p.go("test");
     }
